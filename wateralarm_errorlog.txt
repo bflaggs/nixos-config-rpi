@@ -1,0 +1,50 @@
+Script started on 2020-02-06 14:13:38-05:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="228" LINES="61"]
+
+[1;32m[]0;lhcb@LabPi3: ~/src/rpi.burnin/binlhcb@LabPi3:~/src/rpi.burnin/bin]$[0m sudo ./WaterAlarm.py 4[K9
+Traceback (most recent call last):
+  File "./WaterAlarm.py", line 9, in <module>
+    from rpi.burnin.WaterAlarm import WaterAlarm
+ModuleNotFoundError: No module named 'rpi'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../rpi/burnin/WaterAlarm.py", line 8, in <module>
+    import RPi.GPIO as GPIO
+ModuleNotFoundError: No module named 'RPi'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./WaterAlarm.py", line 12, in <module>
+    from rpi.burnin.WaterAlarm import WaterAlarm
+  File "../rpi/burnin/WaterAlarm.py", line 11, in <module>
+    import fake_rpi
+ModuleNotFoundError: No module named 'fake_rpi'
+
+[1;32m[]0;lhcb@LabPi3: ~/src/rpi.burnin/binlhcb@LabPi3:~/src/rpi.burnin/bin]$[0m sudo ./FireAlarm.py 4
+Traceback (most recent call last):
+  File "./FireAlarm.py", line 9, in <module>
+    from rpi.burnin.WaterAlarm import FireAlarm
+ModuleNotFoundError: No module named 'rpi'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../rpi/burnin/WaterAlarm.py", line 8, in <module>
+    import RPi.GPIO as GPIO
+ModuleNotFoundError: No module named 'RPi'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./FireAlarm.py", line 12, in <module>
+    from rpi.burnin.WaterAlarm import FireAlarm
+  File "../rpi/burnin/WaterAlarm.py", line 11, in <module>
+    import fake_rpi
+ModuleNotFoundError: No module named 'fake_rpi'
+
+[1;32m[]0;lhcb@LabPi3: ~/src/rpi.burnin/binlhcb@LabPi3:~/src/rpi.burnin/bin]$[0m exit
+exit
+
+Script done on 2020-02-06 14:14:26-05:00 [COMMAND_EXIT_CODE="1"]
